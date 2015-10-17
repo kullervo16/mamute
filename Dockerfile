@@ -20,3 +20,5 @@ ENV DB_PORT 3306
 #ENV DB_USER the user to connect to the DB
 #ENV DB_PWD  the password
 #ENV DB_NAME the database name
+ENV MAMUTE_HOST localhost # change this when you want to expose it on a public hostname
+ENV MAMUTE_PORT 8080
