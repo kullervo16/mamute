@@ -10,6 +10,8 @@ you can start the container with following options
 * DB_PWD : its password
 * DB_NAME : the name of the database
 * DB_PORT : the port running your database.
+* MAMUTE_HOST : the external hostname (defaults to localhost, but change it when you need to access it via another URL)
+* MAMUTE_PORT : the external port (defaults to 8080, but change it when you need to access it via another URL)
 
 This container has been tested together with a default mysql container
 
